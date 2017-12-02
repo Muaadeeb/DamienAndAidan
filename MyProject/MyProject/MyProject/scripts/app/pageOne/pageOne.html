@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link href="../../../Content/bootstrap.css" rel="stylesheet" />
+    <script src="pageOne.js"></script>
+    <meta charset="utf-8" />
+    <link href="../../../styles/css.css" rel="stylesheet" />
+    <title>Build your Bounty Hamster</title>
+</head>
+<img src="../../../images/hamster.jpg" />
+
+<table class="margintop" style="width: 70%">
+    <tr>
+        <td><label>First Name</label></td>
+        <td><label>Last Name</label></td>
+        <td><label>Age</label></td>
+    </tr>
+    <tr>
+        <td><input type="text" id="firstName" /></td>
+        <td><input type="text" id="lastName" /></td>
+        <td><input type="text" id="age" /></td>
+    </tr>
+</table>
+<body>
+    <p class="margintop">Assign your character creation points - 100 pts.</p>
+    <p class="margintop">Points spent so far: <label id="pointsSpent">0</label></p>
+
+    <table class="margintop" style="width: 70%"
+            <tr>
+                <td><label>Combat Offense</label></td>
+                <td><label>Combat Defense</label></td>
+                <td><label>Luck</label></td>
+                <td><label>Gamble</label></td>
+                <td><label>Hack</label></td>
+                <td><label>Health</label></td>
+            </tr>
+       
+
+        <tr>
+            <td width="5"><input style="width:7em" type="number" id="combatOffense" value="0" onfocusout="adjustCharacterCreationPoints()" /></td>
+            <td width="5"><input style="width:7em" type="number" id="combatDefense" value="0" onfocusout="adjustCharacterCreationPoints()" /></td>
+            <td width="5"><input style="width:7em" type="number" id="luck" value="0" onfocusout="adjustCharacterCreationPoints()" /></td>
+            <td width="5"><input style="width:7em" type="number" id="gamble" value="0" onfocusout="adjustCharacterCreationPoints()" /></td>
+            <td width="5"><input style="width:7em" type="number" id="hack" value="0" onfocusout="adjustCharacterCreationPoints()" /></td>
+            <td width="5"><input style="width:7em" type="number" id="health" value="0" onfocusout="adjustCharacterCreationPoints()" /></td>
+
+
+        </tr>
+
+        </table>
+    <input class="margintop" type="button" value="Create your Bounty Hamster" onclick="captureBountyHamsterData()" />
+    </div>
+    <br /><br />
+    <a href="../pageTwo/pageTwo.html">Select your Weapons</a>
+  
+</body>
+</html>
