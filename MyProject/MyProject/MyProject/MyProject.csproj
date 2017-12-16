@@ -70,6 +70,7 @@
   <ItemGroup>
     <None Include="packages.config" />
     <Content Include="scripts\app\pageOne\pageOne.js.map" />
+    <Content Include="scripts\app\pageThree\pageThree.html" />
     <Content Include="scripts\app\pageTwo\pageTwo.js.map" />
     <Content Include="scripts\jquery-1.9.1.min.map" />
     <None Include="Web.Debug.config">
